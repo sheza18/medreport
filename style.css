@@ -1,0 +1,217 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+  
+}
+body {
+    background-image: url('./images/pic2.png') no-repeat;
+}
+header {
+    width: 100%;
+    height:100vh;
+   
+   background-image: url('./images/pic2.png');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+.mainheader {
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.mainheader .logo img {
+    width: 200px;
+    height: 100px;
+
+}
+.mainheader nav {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 8px;
+    border: 3px solid black;
+    background-color: rgb(196, 196, 207);
+}
+.mainheader nav a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.mainheader button {
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(2, 14, 56);
+   border-radius: 10px;
+   background-color: cornflowerblue;
+   margin-top: 2px;
+}
+.menubtn {
+    margin-right: 60px;
+margin-top: -8x;
+}
+main {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;  
+}
+/*
+main .right-sec {
+    padding-right: 70px;
+margin-top: 300px;
+} */
+main .left-sec {
+padding-left: 100px;
+margin-top: 200px;
+}
+.left-sec h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: #242424;
+    
+}
+.left-sec h1 {
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 12px 7;
+}
+.left-sec p {
+    margin-bottom: 20px;
+
+}
+.left-sec button {
+    padding: 15px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(2, 14, 56);
+   border-radius: 10px;
+   background-color: cornflowerblue;
+}
+#aboutus {
+    justify-content: space-between;
+    display: flex;
+    height: 80%;
+}
+#aboutus .card img {
+    width: 380px;
+    height: 400px;
+}
+
+#services{
+   height: 400px; 
+   background-color: rgb(31, 31, 82);
+   color: white;
+   
+}
+#services h1 {
+    text-align: center;
+}
+#services h3 {
+    text-align: center;
+    margin-right: 25px;
+}
+#servicesp {
+    text-align: center;
+}
+#services .row .column{
+    margin-left: 28px;
+    justify-content: center;
+    align-items: center;
+    flex: 25%;
+}
+#services .column img {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    border-radius: 50%;
+    margin-left: 25%;
+}
+/*
+#contact .rate {
+    width: 40%;
+    height: 20%;
+    display: flex;
+    border-radius: 25%;    
+background-color: blue;
+cursor: pointer;
+float: left;
+color: black;
+padding: 15px; 
+
+
+display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+} */
+#contact {
+    background-color:rgb(31, 31, 82);
+    color: white;
+    cursor: pointer;
+    padding: 35px;
+    
+}
+#contact button {
+    background-color: red;
+    color: white;
+    padding: 12px;
+
+}
+#contact .rate i {
+    padding: 14px;
+   justify-content: space-between;
+   border-radius: 40%;
+   background-color: rgb(255, 255, 255);
+   color: blue;
+
+}
+
+#contact h4 {
+    text-align: center;
+    font-size: 35px;
+    margin-right: 45px;
+
+}
+#contact .address p{
+    text-align: right;
+    font-size: 1.3rem;
+    margin-right: 18px;
+}
+#quote {
+    color: blue;
+    font-size: 1.3rem;
+
+}
+#quote .blockquote-footer {
+    color: red;
+}
+/*
+.services {
+    background-color: rgb(26, 158, 70);
+    width: 80%;
+    height: 70%;
+    margin-left: 10%;
+}
+.services h3 {
+    text-align: center;
+    
+}
+.services .icon{
+    align-items: center;
+    font-size: 1cm;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+  cursor: pointer;
+  border: 2px solid white;
+} */
